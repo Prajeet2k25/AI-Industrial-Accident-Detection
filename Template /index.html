@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Industrial Safety Monitoring System</title>
+
+<link rel="stylesheet" href="/static/style.css">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+
+<body>
+
+<header>
+
+<h1>INDUSTRIAL ACCIDENT MONITORING SYSTEM</h1>
+
+<div id="alertBanner">
+SYSTEM STATUS : NORMAL
+</div>
+
+</header>
+
+
+<!-- CAMERA GRID -->
+
+<div class="dashboard">
+
+<div class="camera">
+
+<div class="live">LIVE</div>
+
+<h2>CAM 1</h2>
+
+<img src="/cam1" alt="Camera 1">
+
+</div>
+
+
+<div class="camera">
+
+<div class="live">LIVE</div>
+
+<h2>CAM 2</h2>
+
+<img src="/cam2" alt="Camera 2">
+
+</div>
+
+
+<div class="camera">
+
+<div class="live">LIVE</div>
+
+<h2>CAM 3</h2>
+
+<img src="/cam3" alt="Camera 3">
+
+</div>
+
+
+<div class="camera">
+
+<div class="live">LIVE</div>
+
+<h2>CAM 4</h2>
+
+<img src="/cam4" alt="Camera 4">
+
+</div>
+
+</div>
+
+
+<!-- CONTROL PANEL -->
+
+<div class="controls">
+
+<h2>Emergency Controls</h2>
+
+<button onclick="sendEmail()">Send Email Alert</button>
+
+<button onclick="sendSMS()">Send SMS Alert</button>
+
+<button onclick="simulateIncident()">Simulate Incident</button>
+
+<button onclick="resetSystem()">Reset System</button>
+
+</div>
+
+
+<!-- INCIDENT LOG -->
+
+<div class="logPanel">
+
+<h2>Incident Log</h2>
+
+<ul id="logList">
+
+<li>System started</li>
+
+</ul>
+
+</div>
+
+
+<!-- JAVASCRIPT -->
+
+<script src="/static/script.js"></script>
+
+</body>
+
+</html>

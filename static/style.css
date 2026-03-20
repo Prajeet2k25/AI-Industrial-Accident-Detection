@@ -1,0 +1,149 @@
+body {
+
+    background: #0b0b0b;
+    color: white;
+    font-family: Arial;
+    margin: 0;
+
+}
+
+header {
+
+    background: #111;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 3px solid red;
+
+}
+
+h1 {
+
+    margin: 0;
+    color: #ff4444;
+    letter-spacing: 2px;
+
+}
+
+#alertBanner {
+
+    margin-top: 10px;
+    padding: 12px;
+    background: #009933;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 4px;
+
+}
+
+.dashboard {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    padding: 20px;
+
+}
+
+.camera {
+
+    background: black;
+    border: 3px solid #333;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+
+}
+
+.camera img {
+
+    width: 100%;
+    border-radius: 6px;
+
+}
+
+.live {
+
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: red;
+    padding: 4px 10px;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 3px;
+
+}
+
+.controls {
+
+    text-align: center;
+    background: #111;
+    padding: 20px;
+
+}
+
+button {
+
+    margin: 10px;
+    padding: 12px 25px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+button:hover {
+
+    transform: scale(1.05);
+
+}
+
+button:nth-child(2) {
+
+    background: #ff4444;
+    color: white;
+
+}
+
+button:nth-child(3) {
+
+    background: #ffaa00;
+
+}
+
+button:nth-child(4) {
+
+    background: #ff0000;
+    color: white;
+
+}
+
+button:nth-child(5) {
+
+    background: #00aaee;
+    color: white;
+
+}
+
+.logPanel {
+
+    background: #111;
+    padding: 20px;
+    border-top: 3px solid red;
+
+}
+
+.logPanel ul {
+
+    list-style: none;
+    padding: 0;
+
+}
+
+.logPanel li {
+
+    padding: 8px;
+    border-bottom: 1px solid #333;
+
+}
